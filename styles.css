@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #d9cece;
+    background-color: #0b0a0a;
+    line-height: 1.6;
+    padding-top: 70px; 
+}
+header {
+    background: #231f1f; 
+    padding: 1rem 2rem;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 1000;
+    border-bottom: 1px solid rgb(34, 2, 2) 
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-left h1 {
+    margin: 0;
+    color: #ebeff0;
+    font-size: 1.5rem; 
+}
+.header-right ul {
+    list-style: none;
+    display: flex;
+}
+.header-right ul li {
+    margin: 0 20px; 
+    font-size: 1rem;
+}
+.header-right ul li a {
+    color: #e6edf1; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s; 
+}
+.header-right ul li a:hover {
+    color: #828297; 
+}
+#start {
+    background:  linear-gradient(300deg, #09242d, #1f3f4d, #3f6177);  
+    padding: 12rem 2rem; 
+    text-align: center;
+    color: #ffffff;
+}
+#start h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem; 
+    font-weight: bold;
+    color: rgb(248, 248, 248);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.273); 
+}
+#start p {
+    font-size: 1.4rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #efe8e8; 
+}
+section {
+    padding: 6rem 3rem; 
+    text-align: center; 
+    background-color: #000101; 
+}
+section h2 {
+    color: #1c6292;
+    border-bottom: 2px solid #2f5f93; 
+    padding-bottom: 1rem; 
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem; 
+    font-weight: bold; 
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.project {
+    margin-bottom: 2rem;
+}
+.project h3 {
+    font-size: 2rem; 
+    color:rgb(249, 249, 249);
+    margin-bottom: 0.5rem;
+}
+section p, .project p {
+    font-size: 1.6rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+    color: #dee1e2;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    color: #dee4e8;
+}
+ul li {
+    font-size: 1.6rem; 
+    margin: 1rem 0; 
+}
+a {
+    color: #627383; 
+    text-decoration: none;
+    transition: color 0.3s; 
+}
+a:hover {
+    color: #c58989;
+}
+footer {
+    background: #2a2a2a; 
+    padding: 1.5rem;
+    text-align: center;
+    color: #f4eaea; 
+}
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.contact-icons a {
+    color: #1f5b94; 
+    font-size: 2rem; 
+    text-decoration: none;
+    transition: color 0.3s; 
+}
+.contact-icons a:hover {
+    color: #ade3ed; 
+}
